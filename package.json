@@ -1,0 +1,22 @@
+{
+  "name": "node-ws",
+  "version": "0.0.4",
+  "description": "a websocket lib",
+  "main": "bin/socket.js",
+  "author": {
+    "name": "addison",
+    "email": "627535440@qq.com",
+    "url": "https://github.com/javascriptDev"
+  },
+  "keywords": [
+    "websocket"
+  ],
+  "scripts":{
+    "start" : "node demo/a.js;node util/http.js"
+  },
+  "author": "gaoyuqiao",
+  "license": "ISC",
+  "dependencies": {
+    "redis": "^2.6.0-2"
+  }
+}
